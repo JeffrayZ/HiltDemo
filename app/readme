@@ -1,0 +1,5 @@
+@Singleton 全局共享
+@ActivityScoped Activity内部共享，意思就是当前界面上的任何View拿到的都是一样的
+
+@Module 局部依赖
+@InstallIn(ActivityScoped::class)
